@@ -1,69 +1,28 @@
 {  
-    "name":"Dracula Proper",
-    "version":"1.0",
-    "description":"",
-    "manifest_version":2,
+    "name":                             "Dracula Proper",
+    "version":                          "1.0",
+    "description":                      "A simple Dracula theme (my first!)",
+    "manifest_version":                 2,
     "theme":{  
-       "images":{  
-          "theme_frame":"images\/theme_frame.png",
-          "theme_frame_inactive":"images\/theme_frame.png",
-          "theme_toolbar":"images\/theme_toolbar.png",
-          "theme_tab_background":"images\/theme_tab_background.png"
-       },
+       "images":{},
        "colors":{  
-          "frame":[  
-             40,
-             42,
-             54
-          ],
-          "toolbar":[  
-             40,
-             42,
-             54
-          ],
-          "tab_text":[  
-             139,
-             233,
-             253
-          ],
-          "tab_background_text":[  
-             68,
-             71,
-             90
-          ],
-          "bookmark_text":[  
-             242,
-             242,
-             242
-          ],
-          "ntp_background":[  
-             40,
-             42,
-             54
-          ],
-          "ntp_text":[  
-             242,
-             242,
-             242
-          ],
-          "button_background":[  
-             240,
-             113,
-             120,
-             0.1
-          ]
+          "frame":                      [40,42,54],
+          "frame_inactive":             [40,42,54],
+          "background_tab":             [27,29,37],
+          "frame_incognito":            [68,71,90],
+          "frame_incognito_inactive":   [68,71,90],
+          "toolbar":                    [40,42,54],
+          "tab_text":                   [139,233,253],
+          "tab_background_text":        [98,114,164],
+          "bookmark_text":              [248,248,242],
+          "ntp_background":             [40,42,54],
+          "ntp_text":                   [248,248,242]
        },
        "tints":{  
-            "frame": [40,42,54],
-            "frame_inactive": [40,42,54],
-            "frame_incognito": [255,0,0],
-            "frame_incognito_inactive": [255,0,0],
-            "background_tab": [255,0,0],
-            "buttons": [1, 1, 1]
        },
        "properties":{  
-          "ntp_background_alignment":"bottom",
-          "ntp_background_repeat":"no-repeat"
+          "ntp_background_alignment":   "bottom",
+          "ntp_background_repeat":      "no-repeat"
        }
     }
  }
