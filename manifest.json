@@ -1,5 +1,5 @@
 {  
-    "name":                             "Dracula Proper",
+    "name":                             "Dracula Ultra-Flat",
     "version":                          "1.0",
     "description":                      "A simple Dracula theme (my first!)",
     "manifest_version":                 2,
@@ -17,12 +17,12 @@
           "bookmark_text":              [248,248,242],
           "ntp_background":             [40,42,54],
           "ntp_text":                   [248,248,242]
-       },
-       "tints":{  
+        },
+       "tints":{
+             
        },
        "properties":{  
-          "ntp_background_alignment":   "bottom",
-          "ntp_background_repeat":      "no-repeat"
+          "ntp_logo_alternate":         "0"
        }
     }
  }
